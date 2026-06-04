@@ -1,4 +1,4 @@
-import NewsList from "../_components/NewList/NewList";
+import NewsList from "../_components/NewsList/NewsList";
 import { getNewsList } from "../_libs/microcms";
 
 

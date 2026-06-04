@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './NewList.module.css';
+import styles from './NewsList.module.css';
 import Category from '../Category/Category';
 import Date from '../Date/Date';
 
