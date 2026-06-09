@@ -6,6 +6,8 @@ import NewsList from './_components/NewsList/NewsList';
 import { TOP_NEWS_LIMIT } from './_constants';
 
 
+export const revalidate = 60;
+
 export default async function Home() {
   const data = await getNewsList({
     limit: TOP_NEWS_LIMIT,

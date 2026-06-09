@@ -13,8 +13,8 @@ type Props = {
   }>;
 };
 
-// キャッシュの保持期間を示す値
-export const revalidate = 60;
+// // キャッシュの保持期間を示す値
+// export const revalidate = 60;
 
 
 export default async function Page({ params , searchParams }: Props) {
